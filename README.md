@@ -44,7 +44,7 @@ GRU's reset and update gates control how much past context to retain, which solv
 Financial sentences often have sentiment-bearing words near the end ("...fell sharply" or "...beat expectations"). Running a second GRU right-to-left ensures those words inform the full representation.
 
 **Why class weights?**  
-Neutral is ~60% of the dataset. Without reweighting, the model learns to predict neutral for everything and still gets decent accuracy. Inverse-frequency weights penalize misclassifying the minority classes more heavily.
+Neutral is about 60% of the dataset. Without reweighting, the model learns to predict neutral for everything and still gets decent accuracy. Inverse-frequency weights penalize misclassifying the minority classes more heavily.
 
 ---
 
