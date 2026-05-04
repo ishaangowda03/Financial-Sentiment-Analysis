@@ -57,6 +57,7 @@ Neutral is ~60% of the dataset. Without reweighting, the model learns to predict
 | positive | ~74%      | ~71%   | ~72%  |
 | **Macro F1** |       |        | **~74%** |
 
+> Trained on CPU in ~5 minutes.
 > Results are approximate — vary slightly across runs due to random initialization.  
 > **FinBERT reference**: ~88% macro F1 on the same dataset.  
 > The ~14-point gap reflects the fundamental difference between a small scratch-trained RNN and a transformer pre-trained on billions of financial tokens.
